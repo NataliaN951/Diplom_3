@@ -1,8 +1,8 @@
 package model;
 
 public class Login {
-    private String email;
-    private String password;
+    private final String email;
+    private final String password;
 
     public Login(String email, String password) {
         this.email = email;
