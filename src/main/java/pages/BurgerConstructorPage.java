@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class BurgerConstructorPage {
-    public final By textPutBurger = By.xpath("//h1[text()='Соберите бургер']");
+    private final By textPutBurger = By.xpath("//h1[text()='Соберите бургер']");
     private final WebDriver driver;
     private final By logoLink = By.className("AppHeader_header__logo__2D0X2");
     private final By constructorLink = By.xpath("//p[text()='Конструктор']");
